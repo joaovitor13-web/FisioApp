@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         View view = findViewById(R.id.view);
 
-        Snackbar.make(view, "www.journaldev.com", Snackbar.LENGTH_LONG).show
+        Snackbar agoravai = Snackbar.make(view, "www.journaldev.com", Snackbar.LENGTH_LONG);
+        agoravai.show();
     }
 }
